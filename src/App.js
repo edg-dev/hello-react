@@ -7,17 +7,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <p>Se você está lendo essa mensagem, conseguiu startar a aplicação com sucesso.</p>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Editar o arquivo <code>src/App.js</code> adicionando o nome e commitar no projeto.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        
+        <ul>
+          <li>Wender Lucas Souza</li>
+        </ul>
       </header>
     </div>
   );
