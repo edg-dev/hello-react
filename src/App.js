@@ -11,9 +11,13 @@ function App() {
         <p>
           Editar o arquivo <code>src/App.js</code> adicionando o nome e commitar no projeto.
         </p>
+	<p>
+          Hello Warudo!
+        </p>
         
         <ul>
           <li>Wender Lucas Souza</li>
+	  <li>Gustavo Henrique Dias Silva</li>
         </ul>
       </header>
     </div>
