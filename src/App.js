@@ -1,25 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
+import AppRouter from './AppRouter';
+import React, {Component} from 'react';
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Se você está lendo essa mensagem, conseguiu startar a aplicação com sucesso.</p>
-        <p>
-          Editar o arquivo <code>src/App.js</code> adicionando o nome e commitar no projeto.
-        </p>
-	      <p>
-          Hello Warudo!
-          Hello Yasuo!
-        </p>
-        <ul>
-          <li>Wender Lucas Souza</li>
-	        <li>Gustavo Henrique Dias Silva</li>
-          <li>Leonardo Lourenço Braga</li>
-        </ul>
+      <div><h1>Bem vindo ao Bake Fast</h1></div>
+      <div><h5>Escolha como deseja continuar:</h5></div>
+      <AppRouter></AppRouter>
       </header>
     </div>
   );
